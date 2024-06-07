@@ -1,0 +1,7 @@
+.idea
+logs
+output
+.gitversion
+vendor
+.deploy
+.statsd
