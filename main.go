@@ -11,5 +11,14 @@ func main() {
 	r.GET("/hello", func(ctx *gin.Context) {
 		ctx.String(http.StatusOK, "hello world")
 	})
+	r.POST("/user/list", func(ctx *gin.Context) {
+		ctx.String(http.StatusOK, "user list")
+	})
+	r.PUT("/user/add", func(ctx *gin.Context) {
+		ctx.String(http.StatusOK, "user add")
+	})
+	r.DELETE("/user/delete", func(ctx *gin.Context) {
+		ctx.String(http.StatusOK, "user delete")
+	})
 	r.Run(":9999")
 }
