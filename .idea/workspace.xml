@@ -4,10 +4,51 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d088c0b7-ddbb-4cbc-ac98-bb651d6d894b" name="更改" comment="router放在单独的文件夹里&#10;main只用来启动">
-      <change afterPath="$PROJECT_DIR$/controllers/common.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/user.go" afterDir="false" />
+    <list default="true" id="d088c0b7-ddbb-4cbc-ac98-bb651d6d894b" name="更改" comment="创建json格式">
+      <change afterPath="$PROJECT_DIR$/gin-ranking-html/css/css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gin-ranking-html/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gin-ranking-html/css/user.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gin-ranking-html/images/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gin-ranking-html/images/11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gin-ranking-html/images/12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gin-ranking-html/images/13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gin-ranking-html/images/14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gin-ranking-html/images/15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gin-ranking-html/images/16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gin-ranking-html/images/17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gin-ranking-html/images/18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gin-ranking-html/images/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gin-ranking-html/images/pic_ranking.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gin-ranking-html/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gin-ranking-html/js/axios.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gin-ranking-html/js/vue.global.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gin-ranking-html/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gin-ranking-html/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gin-ranking/cache/redis.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gin-ranking/config/db.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gin-ranking/config/redis.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gin-ranking/controllers/common.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gin-ranking/controllers/player.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gin-ranking/controllers/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gin-ranking/controllers/vote.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gin-ranking/dao/dao.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gin-ranking/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gin-ranking/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gin-ranking/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gin-ranking/models/player.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gin-ranking/models/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gin-ranking/models/vote.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gin-ranking/pkg/logger/logger.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gin-ranking/router/routers.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gin-ranking/runtime/log/success_2023-06-13.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/common.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/router/routers.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/user.go" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +139,8 @@
     <MESSAGE value="post put delete" />
     <MESSAGE value="路由放在单独的文件夹里&#10;main只用来启动" />
     <MESSAGE value="router放在单独的文件夹里&#10;main只用来启动" />
-    <option name="LAST_COMMIT_MESSAGE" value="router放在单独的文件夹里&#10;main只用来启动" />
+    <MESSAGE value="创建json格式" />
+    <option name="LAST_COMMIT_MESSAGE" value="创建json格式" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
